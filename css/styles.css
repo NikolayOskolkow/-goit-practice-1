@@ -136,6 +136,14 @@ img {
   line-height: 1.1875;
   color: #fff;
 }
+.link {
+  display: flex;
+  align-items: center;
+}
+.phone-svg,
+.mail-svg {
+  margin-right: 13px;
+}
 
 /* -------- HERO SECTION-------- */
 
@@ -192,7 +200,9 @@ img {
 }
 
 .hero .link-next-section {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
   width: 40px;
@@ -257,6 +267,9 @@ img {
 }
 
 .gallery-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border: 1px solid #0061d9;
@@ -300,6 +313,7 @@ img {
 }
 
 .directions-description {
+  margin-top: 16px;
   font-size: 16px;
   line-height: 1.3;
   color: #333333;
