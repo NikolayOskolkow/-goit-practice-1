@@ -340,3 +340,18 @@ img {
   margin-right: 33px;
   margin-bottom: 37px;
 }
+
+/* /* Популярніе предложения */
+
+.offer h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33;
+  color: #000000;
+}
+
+.offer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
